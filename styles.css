@@ -106,7 +106,7 @@ h2 { font-size: clamp(2.3rem, 5.6vw, 4rem); }
 
 .hero-grid {
   position: relative;
-  display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  display: grid;
   grid-template-areas: "copy photo photo" "copy rating stub" "copy . .";
   grid-template-columns: minmax(0, 1.25fr) minmax(0, .5fr) minmax(0, .58fr);
   grid-template-rows: auto auto 1fr;
@@ -163,12 +163,12 @@ h2 { font-size: clamp(2.3rem, 5.6vw, 4rem); }
   display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px;
   background: var(--blue); color: var(--paper); border: 0; border-radius: 3px; cursor: pointer;
   font: 800 1rem/1 var(--face); letter-spacing: .02em; text-decoration: none;
-  box-shadow: 0 2px 0 #10235f, 0 8px 18px -8px rgba(16, 35, 95, .7);
+  box-shadow: 0 2px 4px rgba(16, 35, 95, .35), 0 8px 18px -8px rgba(16, 35, 95, .7);
   transition: transform .15s var(--ease), box-shadow .15s, background .2s;
 }
 .btn-ink svg { width: 20px; height: 20px; flex: none; }
 .btn-ink:hover { background: #17307f; transform: translateY(-1px); }
-.btn-ink:active { transform: translateY(1px); box-shadow: 0 1px 0 #10235f; }
+.btn-ink:active { transform: translateY(1px); box-shadow: 0 1px 2px rgba(16, 35, 95, .4); }
 .btn-block { width: 100%; }
 
 .stamp {
@@ -205,7 +205,6 @@ h2 { font-size: clamp(2.3rem, 5.6vw, 4rem); }
 .stub .typed { font-weight: 700; font-size: .98rem; }
 .stub-closed { color: #2f3f80; }
 .stub-go { margin-top: 4px; font-weight: 800; font-size: .86rem; color: var(--blue); text-decoration: underline; text-underline-offset: .2em; }
-.stub-go::after { content: " \2192"; }
 
 .rating {
   grid-area: rating; align-self: start; justify-self: start;

@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T00:00:00Z",
+  "title": "Design System: Boston Services Auto Repair",
+  "extensions": {
+    "colorMeta": {
+      "preprint-red": {
+        "role": "primary",
+        "displayName": "Preprint Red",
+        "canonical": "oklch(50.0% 0.193 25.8)",
+        "tonalRamp": [
+          "#210000",
+          "#500001",
+          "#840007",
+          "#b60f1d",
+          "#de4340",
+          "#ff6a62",
+          "#ffb0a8",
+          "#ffe6e2"
+        ]
+      },
+      "preprint-red-press": {
+        "role": "primary",
+        "displayName": "Preprint Red, Pressed",
+        "canonical": "oklch(43.0% 0.166 25.7)",
+        "tonalRamp": [
+          "#220000",
+          "#500001",
+          "#840006",
+          "#ab2a2b",
+          "#d3514b",
+          "#fc766d",
+          "#ffb0a7",
+          "#ffe6e2"
+        ]
+      },
+      "carbon-blue": {
+        "role": "secondary",
+        "displayName": "Carbon Blue",
+        "canonical": "oklch(39.3% 0.160 266.0)",
+        "tonalRamp": [
+          "#02003a",
+          "#050e71",
+          "#1a3695",
+          "#3658bb",
+          "#557ce1",
+          "#79a1ff",
+          "#aec8ff",
+          "#e4efff"
+        ]
+      },
+      "carbon-blue-press": {
+        "role": "secondary",
+        "displayName": "Carbon Blue, Pressed",
+        "canonical": "oklch(34.5% 0.137 265.9)",
+        "tonalRamp": [
+          "#02003b",
+          "#071766",
+          "#1f3a8a",
+          "#3c5bae",
+          "#5b7ed4",
+          "#7ca2fb",
+          "#adc8ff",
+          "#e4efff"
+        ]
+      },
+      "ballpoint-ink": {
+        "role": "secondary",
+        "displayName": "Ballpoint Ink",
+        "canonical": "oklch(33.7% 0.128 266.2)",
+        "tonalRamp": [
+          "#02003c",
+          "#091a62",
+          "#223b85",
+          "#3f5ca9",
+          "#5e7ecf",
+          "#7fa2f5",
+          "#adc8ff",
+          "#e4efff"
+        ]
+      },
+      "canary-copy": {
+        "role": "neutral",
+        "displayName": "Canary Copy",
+        "canonical": "oklch(91.6% 0.090 96.8)",
+        "tonalRamp": [
+          "#100b00",
+          "#2d2500",
+          "#4f4100",
+          "#706119",
+          "#92823e",
+          "#b5a561",
+          "#daca85",
+          "#ffefa9"
+        ]
+      },
+      "canary-deep": {
+        "role": "neutral",
+        "displayName": "Canary Deep",
+        "canonical": "oklch(87.2% 0.112 96.4)",
+        "tonalRamp": [
+          "#100b00",
+          "#2e2400",
+          "#504100",
+          "#726000",
+          "#968223",
+          "#b9a54c",
+          "#dec970",
+          "#ffef95"
+        ]
+      },
+      "pink-copy": {
+        "role": "neutral",
+        "displayName": "Pink Copy",
+        "canonical": "oklch(90.7% 0.036 11.4)",
+        "tonalRamp": [
+          "#170507",
+          "#341e21",
+          "#533a3d",
+          "#74595c",
+          "#977a7d",
+          "#ba9c9f",
+          "#dfc0c3",
+          "#ffe5e8"
+        ]
+      },
+      "original-sheet": {
+        "role": "neutral",
+        "displayName": "Original Sheet",
+        "canonical": "oklch(99.7% 0.005 95.1)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262522",
+          "#43423f",
+          "#62615e",
+          "#83827f",
+          "#a6a5a1",
+          "#cac9c5",
+          "#efeeea"
+        ]
+      },
+      "paperclip-steel": {
+        "role": "neutral",
+        "displayName": "Paperclip Steel",
+        "canonical": "oklch(62.0% 0.023 255.0)",
+        "tonalRamp": [
+          "#050c15",
+          "#1e2630",
+          "#3a434e",
+          "#59626e",
+          "#798390",
+          "#9ca6b4",
+          "#bfcad8",
+          "#e5f0fe"
+        ]
+      },
+      "red-rule": {
+        "role": "neutral",
+        "displayName": "Red Rule",
+        "canonical": "rgba(184, 20, 31, .32)",
+        "tonalRamp": [
+          "#210000",
+          "#500001",
+          "#840007",
+          "#b60f1d",
+          "#de4340",
+          "#ff6a62",
+          "#ffb0a8",
+          "#ffe6e2"
+        ]
+      },
+      "red-wash": {
+        "role": "neutral",
+        "displayName": "Red Wash",
+        "canonical": "rgba(184, 20, 31, .14)",
+        "tonalRamp": [
+          "#210000",
+          "#500001",
+          "#840007",
+          "#b60f1d",
+          "#de4340",
+          "#ff6a62",
+          "#ffb0a8",
+          "#ffe6e2"
+        ]
+      },
+      "blue-wash": {
+        "role": "neutral",
+        "displayName": "Blue Wash",
+        "canonical": "rgba(29, 58, 154, .14)",
+        "tonalRamp": [
+          "#02003a",
+          "#050e71",
+          "#1a3695",
+          "#3658bb",
+          "#557ce1",
+          "#79a1ff",
+          "#aec8ff",
+          "#e4efff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline; same cut for the letterhead name and footer sign-off."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One red condensed-caps heading per copy section."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Line-item names, address name, side-note heads."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text in ballpoint ink; 16px under 600px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Preprinted field captions, legends, column and stub heads, uppercase red."
+      },
+      "entry": {
+        "displayName": "Entry",
+        "purpose": "Courier Prime for every filled-in value: inputs, RO number, hours, captions, customer remarks."
+      }
+    },
+    "shadows": [
+      {
+        "name": "loose-paper",
+        "value": "0 1px 1px rgba(40, 30, 0, .12), 0 10px 24px -8px rgba(40, 30, 0, .35)",
+        "purpose": "Clipped photos, tables, map mat, hours stub."
+      },
+      {
+        "name": "top-sheet",
+        "value": "0 1px 0 rgba(0,0,0,.04), 0 24px 50px -24px rgba(60, 40, 0, .45)",
+        "purpose": "The white original sheet only."
+      },
+      {
+        "name": "dock-lift",
+        "value": "0 -8px 20px -10px rgba(60, 40, 0, .5)",
+        "purpose": "Fixed mobile action dock."
+      },
+      {
+        "name": "paperclip-cast",
+        "value": "drop-shadow(1px 2px 1px rgba(0,0,0,.25))",
+        "purpose": "Filter on steel paperclips only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-paper",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Shared ease: tilted papers and stamps straightening, tick draw, button lift."
+      },
+      {
+        "name": "tick-draw",
+        "value": "clip-path .35s cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Blue tick wipes in left to right when a box is checked."
+      },
+      {
+        "name": "typewriter-reveal",
+        "value": "clip-path .7s steps(14, end)",
+        "purpose": "Hero typed entries reveal in steps on load, staggered 380ms; disabled under reduced motion."
+      },
+      {
+        "name": "carbon-flash",
+        "value": "1.1s cubic-bezier(.16, 1, .3, 1), rgba(29,58,154,.28) to rgba(29,58,154,.06)",
+        "purpose": "A ticked line item flashes blue like a carbon transfer."
+      },
+      {
+        "name": "state-quick",
+        "value": "0.2s",
+        "purpose": "Color, fill and border state changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1080px"
+      },
+      {
+        "name": "tablet",
+        "value": "820px"
+      },
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary action, inked in carbon blue: Text this order, Get directions.",
+      "html": "<button class=\"ds-btn-ink\" type=\"button\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>Text this order to the shop</button>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-btn-ink{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 22px;background:var(--blue);color:var(--paper);border:0;border-radius:3px;cursor:pointer;font:800 1rem/1 var(--face);letter-spacing:.02em;transition:transform .15s var(--ease),background .2s} .ds-btn-ink:hover{background:#17307f;transform:translateY(-1px)} .ds-btn-ink:active{transform:translateY(1px)} .ds-btn-ink:focus-visible{outline:2px dashed var(--red);outline-offset:3px}"
+    },
+    {
+      "name": "Call Stamp",
+      "kind": "button",
+      "refersTo": "stamp-call",
+      "description": "Secondary call action as a tilted double-ring rubber stamp that inks in on hover.",
+      "html": "<a class=\"ds-stamp\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z\" fill=\"currentColor\"/></svg>Or call (919) 524-4579</a>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-stamp{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 16px;color:var(--red);text-decoration:none;font:900 1.06rem/1 var(--face);font-stretch:75%;text-transform:uppercase;letter-spacing:.06em;border:2.5px solid var(--red);border-radius:6px;box-shadow:inset 0 0 0 2px var(--paper),inset 0 0 0 3.5px var(--red);transform:rotate(-2deg);transition:background .2s,color .2s,transform .2s var(--ease)} .ds-stamp:hover{background:var(--red);color:var(--paper);box-shadow:inset 0 0 0 2px var(--red),inset 0 0 0 3.5px var(--paper);transform:rotate(0)} .ds-stamp:focus-visible{outline:2px dashed var(--red);outline-offset:3px}"
+    },
+    {
+      "name": "Typed Field",
+      "kind": "input",
+      "refersTo": "field-entry",
+      "description": "Preprinted red caption over a ruled underline; values typed in blue Courier Prime.",
+      "html": "<label class=\"ds-field\"><span>Vehicle · yr / make / model</span><input placeholder=\"e.g. 2014 Honda Accord\"></label>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-field{display:block;padding-top:14px;max-width:420px;background:var(--paper)} .ds-field>span{display:block;font:800 .72rem/1.2 var(--face);text-transform:uppercase;letter-spacing:.12em;color:var(--red)} .ds-field input{width:100%;border:0;border-bottom:1.5px solid var(--red-soft);background:transparent;font:700 1.12rem/1.4 var(--type);color:var(--blue);padding:4px 2px 5px;border-radius:0;transition:border-color .2s,background .2s} .ds-field input::placeholder{color:#55639c;font-weight:400} .ds-field input:focus,.ds-field input:focus-visible{outline:none;border-color:var(--blue);background:var(--blue-soft)}"
+    },
+    {
+      "name": "Service Checkbox",
+      "kind": "input",
+      "refersTo": "checkbox-box",
+      "description": "Square red box on a dashed ruled row; the blue tick draws in when checked.",
+      "html": "<label class=\"ds-check\"><input type=\"checkbox\"><span class=\"ds-box\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><path d=\"M4 13.5l5 5L20.5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>NC state inspection</label>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-check{display:flex;align-items:center;gap:12px;min-height:44px;cursor:pointer;font:600 1rem/1.3 var(--face);color:var(--blue-ink);border-bottom:1px dashed var(--red-soft);max-width:320px;position:relative} .ds-check input{position:absolute;opacity:0;width:1px;height:1px} .ds-box{flex:none;width:24px;height:24px;border:2px solid var(--red);background:var(--paper);display:grid;place-items:center;transition:background .2s} .ds-box svg{color:var(--blue);clip-path:inset(0 100% 0 0);transition:clip-path .35s var(--ease)} .ds-check input:checked+.ds-box svg{clip-path:inset(0 0 0 0)} .ds-check:has(input:checked){border-bottom-style:solid;border-color:var(--blue)} .ds-check:hover .ds-box{background:var(--blue-soft)} .ds-check input:focus-visible+.ds-box{outline:2px dashed var(--red);outline-offset:3px}"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "bar-call",
+      "description": "Sticky canary bar ruled in red, uppercase nav links, red call button.",
+      "html": "<header class=\"ds-bar\"><nav class=\"ds-nav\"><a href=\"#\">Services</a><a href=\"#\">Inspections</a><a href=\"#\">Reviews</a></nav><a class=\"ds-bar-call\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z\" fill=\"currentColor\"/></svg>(919) 524-4579</a></header>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-bar{display:flex;align-items:center;gap:28px;height:62px;padding:0 24px;background:rgba(244,228,158,.94);border-bottom:2px solid var(--red);box-shadow:0 3px 0 -1px var(--red-faint)} .ds-nav{display:flex;gap:24px;margin-left:auto} .ds-nav a{text-decoration:none;font:700 .82rem/1 var(--face);text-transform:uppercase;letter-spacing:.12em;color:var(--blue-ink);padding:6px 0;border-bottom:2px solid transparent;transition:border-color .2s} .ds-nav a:hover{border-color:var(--blue)} .ds-nav a:focus-visible,.ds-bar-call:focus-visible{outline:2px dashed var(--red);outline-offset:3px} .ds-bar-call{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;background:var(--red);color:var(--paper);text-decoration:none;font:800 1rem/1 var(--face);letter-spacing:.02em;border-radius:4px;transition:background .2s} .ds-bar-call:hover{background:#960f18}"
+    },
+    {
+      "name": "Line Items",
+      "kind": "custom",
+      "refersTo": "line-items-header",
+      "description": "Services as repair-order line items: red header bar, hairline cells, tick column, typed quote column.",
+      "html": "<table class=\"ds-lines\"><thead><tr><th></th><th>Description</th><th>Quote</th></tr></thead><tbody><tr class=\"on\"><td class=\"ds-tick\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><path d=\"M4 13.5l5 5L20.5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></td><td><strong>NC state inspection</strong><span>Licensed &amp; certified station.</span></td><td class=\"ds-q\">State-set fee</td></tr><tr><td class=\"ds-tick\"></td><td><strong>Used tires</strong><span>Used tires in stock.</span></td><td class=\"ds-q\">Free quote</td></tr></tbody></table>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-lines{width:100%;max-width:560px;border-collapse:collapse;background:var(--paper);box-shadow:var(--shadow);font-family:var(--face);color:var(--blue-ink)} .ds-lines th{text-align:left;font:800 .74rem/1.2 var(--face);text-transform:uppercase;letter-spacing:.14em;color:var(--paper);background:var(--red);padding:9px 14px} .ds-lines td{padding:12px 14px;border-bottom:1px solid var(--red-soft);vertical-align:top} .ds-lines td+td{border-left:1px solid var(--red-soft)} .ds-lines tr:last-child td{border-bottom:0} .ds-lines strong{display:block;font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:1.12rem;letter-spacing:.02em} .ds-lines td span{display:block;font-size:.95rem} .ds-tick{width:44px} .ds-tick svg{color:var(--blue)} .ds-q{font:700 1rem/1.4 var(--type);color:var(--blue);white-space:nowrap} .ds-lines tr{transition:background .3s} .ds-lines tr.on{background:rgba(29,58,154,.06)} .ds-lines tr.on strong{text-decoration:underline 2px var(--blue);text-underline-offset:.2em} .ds-lines tbody tr:hover{background:var(--blue-soft)}"
+    },
+    {
+      "name": "Clipped Photo",
+      "kind": "card",
+      "refersTo": "clipped-photo",
+      "description": "A real photo printed with a white border, steel paperclip, slight tilt and typed caption.",
+      "html": "<figure class=\"ds-clipped\"><svg class=\"ds-clip\" viewBox=\"0 0 30 80\" aria-hidden=\"true\"><path d=\"M10 74V16a8 8 0 0 1 16 0v52a12 12 0 0 1-24 0V22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg><div class=\"ds-img\"></div><figcaption><span>Look for the red, white &amp; blue building.</span><small>Imagery © Google</small></figcaption></figure>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-clipped{position:relative;margin:28px 0 0;max-width:340px;background:#fff;padding:10px 10px 12px;box-shadow:var(--shadow);transform:rotate(1.2deg);transition:transform .2s var(--ease)} .ds-clipped:hover{transform:rotate(0)} .ds-img{aspect-ratio:3/2;background:linear-gradient(#b8141f 0 30%,#fffefa 30% 42%,#1d3a9a 42%)} .ds-clipped figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-top:9px;font:400 .9rem/1.35 var(--type);color:var(--blue)} .ds-clipped small{flex:none;font:500 .7rem/1 var(--face);color:#4f5763;letter-spacing:.04em} .ds-clip{position:absolute;top:-26px;left:28px;width:22px;height:64px;color:var(--steel);filter:drop-shadow(1px 2px 1px rgba(0,0,0,.25));z-index:2}"
+    },
+    {
+      "name": "Rating Stamp",
+      "kind": "custom",
+      "refersTo": "stamp-call",
+      "description": "Tilted red-bordered proof stamp: big condensed score, stars, review count.",
+      "html": "<a class=\"ds-rating\" href=\"#\"><span class=\"ds-num\">4.5</span><span class=\"ds-stars\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z\" fill=\"currentColor\"/></svg><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z\" fill=\"currentColor\"/></svg><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z\" fill=\"currentColor\"/></svg><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z\" fill=\"currentColor\"/></svg><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" style=\"clip-path:inset(0 50% 0 0)\"><path d=\"M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z\" fill=\"currentColor\"/></svg></span><span class=\"ds-txt\">48 Google reviews</span></a>",
+      "css": ":host{--red:#b8141f;--blue:#1d3a9a;--blue-ink:#182f78;--paper:#fffefa;--canary:#f4e49e;--red-soft:rgba(184,20,31,.32);--red-faint:rgba(184,20,31,.14);--blue-soft:rgba(29,58,154,.14);--steel:#7d8794;--shadow:0 1px 1px rgba(40,30,0,.12),0 10px 24px -8px rgba(40,30,0,.35);--face:'Archivo','Arial Narrow',sans-serif;--type:'Courier Prime','Courier New',monospace;--ease:cubic-bezier(.16,1,.3,1)} .ds-rating{display:inline-grid;grid-template-columns:auto auto;column-gap:12px;align-items:center;padding:10px 16px;text-decoration:none;color:var(--red);border:2px solid var(--red);transform:rotate(-1.5deg);transition:transform .2s var(--ease),background .2s;font-family:var(--face)} .ds-rating:hover{transform:rotate(0);background:var(--red-faint)} .ds-rating:focus-visible{outline:2px dashed var(--red);outline-offset:3px} .ds-num{grid-row:span 2;font-stretch:62%;font-weight:900;font-size:3.2rem;line-height:.85} .ds-stars{display:flex;gap:2px} .ds-txt{white-space:nowrap;font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Carbon-Copy Repair Order",
+    "overview": "The whole site is the shop's own multi-part repair order. A white original sheet sits on canary \"customer copy\" ground, a pink copy follows behind a perforation, and everything on it is printed in exactly two inks: preprint red for what the form says, carbon blue for what was written on it. Preprinted labels are condensed grotesk capitals; anything a person \"filled in\" (order numbers, hours, captions, quotes, typed entries) is a typewriter face in blue. The material grammar is office paper: hairline red rules, empty checkboxes, dotted perforations, rubber stamps, and real photographs paper-clipped onto the sheet at a slight tilt.\n\nDensity is that of a working form, not a brochure. Sections are \"copies\" separated by perforations; services are line items in a ruled table; reviews are customer remarks typed onto ruled lines with a red margin. The red, white and blue come straight from the building (red canopy, white band, blue bay doors), so the form is the shop's own stationery rather than a generic theme.\n\nThe world rejects the stock auto-shop template: no full-bleed photo hero with overlaid headline, no grid of icon service cards, no gradients, no glossy chrome.",
+    "keyCharacteristics": [
+      "Two inks only, red and blue, on canary, pink and white paper stocks.",
+      "Condensed heavy capitals for preprint; Courier Prime for every filled-in value.",
+      "Hairline red rules, square checkboxes and perforations instead of cards and dividers.",
+      "Photographs are clipped prints with a white border, a steel paperclip and a 1 to 1.5 degree tilt.",
+      "Depth is paper on paper: soft warm drop shadows, never glass or glow."
+    ],
+    "rules": [
+      {
+        "name": "The Two Inks Rule",
+        "body": "Every mark is red or blue. Red is what the form printed; blue is what someone wrote. If a new element needs a third hue, it is a different document.",
+        "section": "colors"
+      },
+      {
+        "name": "The Carbon Rule",
+        "body": "Blue appears where a person acted: a typed entry, a tick, a focus, a selected line. Do not use blue for decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Preprint vs. Filled-In Rule",
+        "body": "Archivo capitals for what the shop printed; Courier Prime in blue for what was written in. Never set a label in Courier or a value in condensed caps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Condensing is done with the Archivo width axis (62 for display, 75 for titles and stamps), never with faux scaling or letter-spacing squeeze. Display tracking stays at 0.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-Only Rule",
+        "body": "Only things that are paper get shadows. Buttons, fields and stamps are printed or inked on the paper and stay flat to it.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** print every new mark in either preprint red or carbon blue on canary, pink or sheet-white stock.",
+      "**Do** set preprinted captions as red Archivo 800 caps at 0.72rem with 0.12em tracking, and any filled-in value in blue Courier Prime.",
+      "**Do** separate sections with a perforation strip and content with red hairlines rather than cards.",
+      "**Do** present photographs as clipped prints: white border, steel paperclip, a 1 to 1.5 degree tilt, a typed caption and any required credit.",
+      "**Do** let loose papers and stamps straighten to 0 degrees on hover with the shared ease (cubic-bezier(.16, 1, .3, 1)).",
+      "**Do** keep every tap target at 44px or taller and honor reduced motion by dropping transitions and the typing reveal."
+    ],
+    "donts": [
+      "**Don't** add a third ink. Status, success and emphasis must be expressed in red or blue.",
+      "**Don't** round paper. Sheets, fields, tables, checkboxes and photos stay square; only the ink button, bar call and stamp take a radius.",
+      "**Don't** give buttons, fields or stamps a drop shadow; shadows belong to paper lying on paper.",
+      "**Don't** use a full-bleed photo hero with overlaid text or a grid of icon service cards.",
+      "**Don't** use gradients, glass, glow or neutral grey shadows.",
+      "**Don't** reproduce the Boston Red Sox mark; use the original B roundel emblem."
+    ]
+  }
+}
