@@ -44,7 +44,7 @@
 - [ ] The full list of services: AC, transmission, diagnostics, alignments? Do they do emissions?
 - [ ] Do they accept walk-ins for inspections, or is an appointment needed?
 - [ ] Payment methods, and whether they offer a warranty on repairs
-- [ ] **Photos:** The demo uses the owner's own Google photo (the inspection station) and Google Street View crops (storefront, canopy, truck), credited "Imagery © Google". Street View images shouldn't be used on the live site. At the visit, take your own photos of the storefront, the canopy, the truck, the bays, the tire rack and the team, then swap them into `assets/` using the same filenames.
+- [ ] **Photos:** The demo uses the owner's own Google photo (the inspection station) and Google Street View crops (storefront, and the lot with the canopy and truck), credited "Imagery © Google". Street View images shouldn't be used on the live site. At the visit, take your own photos of the storefront, the canopy, the truck, the bays, the tire rack and the team, then swap them into `assets/` using the same filenames.
 - [ ] Permission to quote their Google reviews by first name
 
 ## Sources

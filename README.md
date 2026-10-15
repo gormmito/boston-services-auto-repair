@@ -10,7 +10,7 @@ It's plain HTML, CSS and JS with no build step. To preview it, open `index.html`
 | `styles.css` | Styles. Works on phones, tablets and desktops. |
 | `script.js` | Shows open or closed based on Raleigh time and highlights today's hours. The quote form opens a text message to the shop with the details already filled in. |
 | `favicon.svg` | Original "B" emblem. |
-| `assets/` | Photos. `inspection-station.jpg` is the owner's own Google Business photo. `storefront.jpg`, `building.jpg`, `canopy.jpg` and `truck.jpg` are Google Street View crops for the pitch demo; replace them before launch. |
+| `assets/` | Photos. `inspection-station.jpg` is the owner's own Google Business photo. `storefront.jpg` and `lot.jpg` are Google Street View crops for the pitch demo; replace them before launch. |
 | `PRODUCT.md` | Confirmed facts about the business. Nothing on the site goes beyond this file. |
 | `SALES-NOTES.md` | Research findings, sources, and what to confirm with the owner. |
 

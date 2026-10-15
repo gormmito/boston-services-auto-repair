@@ -38,7 +38,7 @@ A neighborhood shop in a red, white and blue former service station on Capital B
 - Google: **4.5★, 48 reviews** (live, Oct 2026). Birdeye shows "170 reviews" but that figure is not used.
 - Verbatim 5-star Google review snippets: "Best mechanic in Raleigh, honest, helpful and reasonable prices." / "Boston auto shop is a good place to get great service." / "His co workers are funny and a joy to work with". Older directory snippets: "Very honest repair shop that does quality work", "stand behind their work", "always gets me the best pricing".
 - Facebook page: https://www.facebook.com/p/Boston-Services-Auto-Repair-100057098393815/ (found in web search results as "Boston Services Auto Repair", listing (919) 524-4579).
-- Photos: `assets/inspection-station.jpg` is the owner's own Google Business photo of the "Official Inspection Station" sign and the inspection terminal, uploaded Oct 2021. `assets/storefront.jpg`, `assets/lot.jpg` and `assets/street.jpg` are crops from a Google Street View panorama (pano yW52sabSrJbWiz3npUvq6w), used for the pitch demo with an "Imagery © Google" credit, and should be replaced with photos from the visit before launch.
+- Photos: `assets/inspection-station.jpg` is the owner's own Google Business photo of the "Official Inspection Station" sign and the inspection terminal, uploaded Oct 2021. `assets/storefront.jpg` and `assets/lot.jpg` are crops from a Google Street View panorama (pano yW52sabSrJbWiz3npUvq6w), used for the pitch demo with an "Imagery © Google" credit, and should be replaced with photos from the visit before launch.
 - Do not fabricate: no prices, fees, years in business, warranties, certifications beyond the NC inspection license, or reviewer names.
 
 ## Product Principles
